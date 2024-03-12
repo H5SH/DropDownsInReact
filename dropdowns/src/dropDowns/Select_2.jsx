@@ -30,16 +30,16 @@ function Select_2(){
 
     return (
         <div className='select2-container--classic'>
-          <button>
+          
         <Select2
         multiple
         className="select2-search--dropdown"
         data={data}
         options={{
-          placeholder: 'search by tags',
+          placeholder: 'Select...',
         }}
         />
-        </button>
+       
 
         </div>
     )
